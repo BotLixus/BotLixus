@@ -3,3 +3,11 @@ body {
     color: #222222;
     text-align: center;
 }
+
+
+.titulo-portafolio {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
