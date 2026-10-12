@@ -18,9 +18,18 @@ body {
     text-transform: uppercase;
 }
 
-.menu-principal {
+.menu-principal  {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+}
+
+.menu-principal a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-principal a:visited {
+    color: inherit;
 }
