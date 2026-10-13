@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSQK</title>
+
+    <link rel="stylesheet" href="styleHome.css">
+</head>
+<body>
+
+    <video controls playsinline>
+        <source src="VideoHome.mp4" type="video/mp4">
+    </video>
+
+    <a href="About&Work.html" hidden>
+        <img src="Firma.jpg">
+    </a>
+
+    */ le puse 
+    <script>
+        const video = document.querySelector("video");
+        const logo = document.querySelector("a");
+
+        video.addEventListener("ended", function() {
+            video.hidden = true;
+            logo.hidden = false;
+        });
+    </script>
+
+</body>
+</html>

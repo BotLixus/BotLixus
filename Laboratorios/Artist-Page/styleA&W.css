@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #080808;
+    color: #FFFFFF;
+}
+
+.about {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+
+.about-completo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 32px;
+}
+
+.foto-nsqk {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-texto h2 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: 0;
+
+}
+
+.linea {
+    width: 400px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 16px 0;
+}
+
+.about-texto h1 {
+    font-size: 44px;
+    margin: 0 0 12px;
+}
+
+.nombre-real {
+    color: #888888;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.about-texto p {
+    color: #CCCCCC;
+    line-height: 1.6;
+}
+
+
+.albumes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.album {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.album img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.album h2 {
+    font-size: 22px;
+    margin: 0 0 8px;
+}
+
+.album p {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.roy {
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+.atp {
+    background-color: #F07824;
+    color: #171717;
+}
+
+.mosca {
+    background-color: #1239A8;
+    color: #FFFFFF;
+}

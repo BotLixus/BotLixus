@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #F07824;
+    color: #171717;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.portada {
+    width: 100%;
+}
+
+.etiqueta {
+    color: #51250D;
+    font-size: 12px;
+}
+
+.info-album h1 {
+    font-size: 48px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #C85B1D;
+}
+
+.duracion {
+    color: #51250D;
+}
+
+.favorita {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #D95D19;
+}
+
+.explicacion {
+    color: #30190C;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #30190C;
+    font-size: 12px;
+}
+
+a:visited {
+    color: #30190C;
+}
